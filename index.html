@@ -36,7 +36,7 @@
                     <div>
                         <button @click="getWeather" class="button">Get Weather Data</button>
                     </div>
-                    <div v-if="weather.word" class="weatherResults">
+                    <div v-if="weather.temperature" class="weatherResults">
                     <p><strong>Temperature:</strong> {{ weather.temperature }}</p>
                     <p><strong>Wind:</strong> {{ weather.wind }}</p>
                     <p><strong>Description:</strong> {{ weather.description }}</p>
