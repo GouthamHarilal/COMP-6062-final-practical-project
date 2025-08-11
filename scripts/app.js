@@ -72,7 +72,6 @@ const app = Vue.createApp({
             .then(response => response.json())
             .then(data => {
                     
-               
                     this.dictionary.word = data.word,
                     this.dictionary.pronounciation= data.phonetic,
                     this.dictionary.meaning= data.definition
